@@ -1,0 +1,166 @@
+* {
+  padding: 0;
+  margin: 0
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-flow: column nowrap;
+  font-family: 'Montserrat', sans-serif;
+  background-color:  #34495e;
+  justify-content: center;
+  color: ##bdc3c7;
+}
+
+.intro {
+  background-image: url("intro_bg.jpg");
+  background-size: 100%;
+  flex: 1 0 auto;
+  height: 500px;
+}
+
+.intro-text {
+  text-align: center;
+  padding-top: 240px;
+  font-size: 200%;
+  font-weight: bold;
+}
+
+.header {
+  display: flex;
+  flex-flow: row wrap;
+  background: url("/css/logo.jpg") no-repeat;
+  height: 100px;
+}
+
+.header_left {
+  width: 50%;
+  align-self: center;
+  flex: 0 1 auto;
+}
+
+.header_right {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-self: center;
+  flex: 1 0;
+}
+
+.header_menu {
+  text-align: right;
+}
+
+.call_me_baby {
+  color: #d35400;
+  font-size: 150%;
+  padding-left: 20px;
+
+}
+
+.menu_item {
+padding: 5px;
+
+}
+
+.menu_item a {
+  color: #ecf0f1;
+}
+
+.features {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+height: 500px;
+}
+.feature {
+  padding: 50px 10px;
+  font-size: 150%;
+  color: #e67e22;
+}
+
+/*ТОВАРЫ*/
+.items_header, .feedback_header {
+  width: 100%;
+  font-size: 200%;
+  text-align: center;
+  background-color: #ecf0f1;
+}
+
+.items {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin: 5px;
+  height: 500px;
+  background-color: #34495e;
+}
+
+.item_name {
+  background-color: #e74c3c;
+  border-color: ##2c3e50;
+  border-width: 2px;
+  border-radius: 3px;
+  text-align: center;
+  font-weight: bold;
+  max-width: 150px;
+}
+.item {
+  margin: 50px 20px;
+
+}
+
+.item_img {
+  max-width: 150px;
+}
+
+.buy_me {
+  width: 100%;
+  border-radius: 3px;
+  height: 30px;
+  background-color: #e74c3c;
+  border-color: ##2c3e50;
+}
+
+.proofs {
+  display: flex;
+  flex: row wrap;
+  justify-content: center;
+  margin: 20px;
+  height: 500px;
+}
+
+.proof {
+  margin: 0 10px;
+  max-width: 20%;
+}
+
+.feedback {
+  height: 500px;
+}
+
+.feedback_img {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.footer {
+  margin-top: auto;
+  background-color: #34495e;
+  color: #d35400;
+  padding: 10px;
+  font-size: 50%;
+}
+
+.footer a {
+  color: #c0392b;
+  background-color: #ecf0f1;
+  font-size: 120%;
+  font-weight: bold;
+}
+
